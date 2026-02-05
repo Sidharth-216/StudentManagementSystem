@@ -124,3 +124,7 @@ BEGIN
 END;
 
 */
+use EcommerceMysql;
+create table customers(cid int foreign key not NULL,name varchar(100),email varchar(100),mobile int);
+create table products(pid int foreign key primary key,pname varchar(100),price double);
+create table orders(cid int FOREIGN key not null,orderno int,totalamount double,pid int FOREIGN key not null ,pname varchar(100)); 
