@@ -176,7 +176,7 @@ class Bank
                     default:
                         System.out.println("INVALID CHOICE!");
                 }
-
+                sc.close();
             }
         }
         catch(Exception e)
