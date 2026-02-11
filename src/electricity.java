@@ -5,7 +5,7 @@ import java.util.*;
 class electricity
 {
     public static void main(String[] args)
-    {
+    { 
         Scanner sc = new Scanner(System.in);
 
         try
